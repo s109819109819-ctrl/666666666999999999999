@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王新睿 | 個人履歷</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; }
+        /* 增加一些參考圖中的質感細節 */
+        .section-card {
+            background-color: #f3f4f6; /* 淺灰色背景 */
+            border-left: 4px solid #6366f1; /* 左側藍紫色線條 */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="w-full text-center py-8 bg-white shadow-sm mb-8">
+        <h2 class="text-sm font-bold tracking-[0.2em] text-gray-500 uppercase">PERSONAL PORTFOLIO</h2>
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 pb-16 space-y-8">
+        
+        <div class="text-center flex flex-col items-center">
+            <div class="w-40 h-40 rounded-full p-1 bg-white shadow-lg mb-4 overflow-hidden border-2 border-gray-100">
+                <img src="image_5.png.JPG" alt="王新睿" class="w-full h-full object-cover rounded-full hover:scale-110 transition duration-500">
+            </div>
+            
+            <h1 class="text-4xl font-bold mb-3 text-gray-900">王新睿</h1>
+            
+            <div class="inline-flex items-center bg-red-50 text-red-600 px-4 py-1 rounded-full text-sm font-semibold shadow-sm mb-4">
+                <i class="fa-solid fa-graduation-cap mr-2"></i>
+                <span>智慧科技應用系 | 全端開發者</span>
+            </div>
+            
+            <p class="text-gray-500 font-medium tracking-wide">創新技術愛好者 & Web 開發專才</p>
+        </div>
+
+        <div class="bg-gray-100 rounded-2xl p-8 shadow-inner">
+            <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="w-2 h-8 bg-indigo-600 mr-3 rounded-full"></span>
+                關於我
+            </h3>
+            <p class="text-gray-600 leading-relaxed text-justify">
+                成長背景與技術磨練：您好！我是一名熱衷於將創意轉化為現實的開發者。專注於打造高效、使用者友善的數位體驗。
+                <br><br>
+                專業精神：樂於接受技術挑戰，並持續在程式碼的世界中學習與成長。具備解決複雜問題的能力，並致力於將 AI 技術與 Web 開發結合。
+                <br><br>
+                未來展望：目標成為軟硬體整合專才，期待與您創造更多可能。
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 section-card">
+                <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fa-solid fa-school text-indigo-500 mr-2"></i> 教育背景
+                </h3>
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start">
+                        <span class="text-indigo-400 mr-2">◆</span>
+                        <span>智慧科技應用系 (在學中)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-indigo-400 mr-2">◆</span>
+                        <span>專注於全端網頁開發與系統整合</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 section-card" style="border-left-color: #ec4899;">
+                <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fa-solid fa-star text-pink-500 mr-2"></i> 興趣與專長
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-indigo-100 text-indigo-600 rounded-lg text-sm font-medium">程式設計</span>
+                    <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-lg text-sm font-medium">Web 開發</span>
+                    <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-lg text-sm font-medium">人工智慧</span>
+                    <span class="px-3 py-1 bg-pink-100 text-pink-600 rounded-lg text-sm font-medium">攝影</span>
+                    <span class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-lg text-sm font-medium">咖啡</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-indigo-900 text-white rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden relative">
+            <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 rounded-full bg-indigo-700 opacity-20 blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 -ml-16 -mb-16 w-48 h-48 rounded-full bg-pink-600 opacity-20 blur-3xl"></div>
+
+            <h2 class="text-3xl font-bold mb-2 flex items-center relative z-10">
+                <i class="fa-solid fa-paper-plane mr-4 text-pink-400"></i> 傳送訊息給我
+            </h2>
+            <p class="text-indigo-200 mb-8 relative z-10">有任何合作機會？歡迎填寫下方表單。</p>
+
+            <form id="contactForm" class="space-y-6 relative z-10">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-indigo-200 mb-1">您的姓名</label>
+                        <input type="text" name="name" id="name" required
+                            class="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-700 rounded-xl focus:ring-2 focus:ring-pink-500 focus:border-transparent text-white placeholder-indigo-400 transition" placeholder="請輸入姓名">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-indigo-200 mb-1">電子郵件</label>
+                        <input type="email" name="email" id="email" required
+                            class="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-700 rounded-xl focus:ring-2 focus:ring-pink-500 focus:border-transparent text-white placeholder-indigo-400 transition" placeholder="name@example.com">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-indigo-200 mb-1">聯絡電話</label>
+                    <input type="tel" name="phone" id="phone" 
+                        class="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-700 rounded-xl focus:ring-2 focus:ring-pink-500 focus:border-transparent text-white placeholder-indigo-400 transition" placeholder="0912-345-678">
+                </div>
+
+                <div>
+                    <label for="message" class="block text-sm font-medium text-indigo-200 mb-1">訊息內容</label>
+                    <textarea name="message" id="message" rows="4" required
+                        class="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-700 rounded-xl focus:ring-2 focus:ring-pink-500 focus:border-transparent text-white placeholder-indigo-400 transition resize-none" placeholder="請輸入您想說的話..."></textarea>
+                </div>
+
+                <button type="submit" id="submitBtn"
+                    class="w-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white font-bold py-4 rounded-xl shadow-lg transform transition hover:-translate-y-1 flex justify-center items-center">
+                    <span id="btnText">確認送出</span>
+                    <svg id="loadingIcon" class="animate-spin ml-3 h-5 w-5 text-white hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                </button>
+
+                <div id="statusMessage" class="text-center hidden p-3 rounded-xl font-medium bg-white/10 backdrop-blur-sm"></div>
+            </form>
+        </div>
+
+        <div class="flex justify-center space-x-4 pb-8">
+            <a href="#" class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-gray-600 hover:bg-indigo-600 hover:text-white transition"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-gray-600 hover:bg-pink-600 hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-gray-600 hover:bg-gray-800 hover:text-white transition"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:S109819109819@GMAIL.COM" class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-gray-600 hover:bg-red-500 hover:text-white transition"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwXgHjNfxSP2Wh551iDvoXhmlbRC3FksngviVTImNxIm1o7uKfEeq8RPe0L6ZGkeTzXgA/exec';
+        
+        const form = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const btnText = document.getElementById('btnText');
+        const loadingIcon = document.getElementById('loadingIcon');
+        const statusMessage = document.getElementById('statusMessage');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            submitBtn.disabled = true;
+            btnText.textContent = '正在發送...';
+            loadingIcon.classList.remove('hidden');
+            submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+            statusMessage.classList.add('hidden');
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                statusMessage.textContent = "✅ 訊息已成功發送！我會盡快回覆您。";
+                statusMessage.className = "text-center p-3 rounded-xl bg-green-500/20 text-green-200 block border border-green-500/30";
+                form.reset();
+            })
+            .catch(error => {
+                statusMessage.textContent = "❌ 發送失敗，請稍後再試。";
+                statusMessage.className = "text-center p-3 rounded-xl bg-red-500/20 text-red-200 block border border-red-500/30";
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+                btnText.textContent = '確認送出';
+                loadingIcon.classList.add('hidden');
+                submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+                setTimeout(() => { statusMessage.classList.add('hidden'); }, 5000);
+            });
+        });
+    </script>
+</body>
+</html>
